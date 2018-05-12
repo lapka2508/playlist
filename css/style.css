@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+body {
+  font: 300 16px/1.2 "Roboto", sans-serif;
+  background: #003056 url("../img/816831.jpg") 50%/cover;
+  color: #574d72;
+}
+
+.ba-playlist {
+  background: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+  padding: 30px 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.ba-playlist__title {
+  text-align: center;
+  font-weight: 500;
+  margin: 0 0 25px;
+}
+
+.ba-playlist__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ba-tune {
+  border-top: 1px solid #e4e2e2;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.ba-tune__top {
+  font-size: 80%;
+  margin-bottom: 5px;
+  color: #a4a3a9;
+}
+
+.ba-tune__duration {
+  display: inline-block;
+  padding-right: 10px;
+  margin-right: 6px;
+  border-right: 1px solid rgba(164, 163, 169, 0.6);
+}
+
+.ba-tune__author {
+  text-transform: capitalize;
+}
+
+.ba-tune__song {
+  font-weight: 500;
+}
+
+.ba-tune__song::first-letter {
+  text-transform: uppercase;
+}
+
+.ba-tune__like {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+  float: right;
+  fill: #ed5e75;
+  cursor: pointer;
+}
+
+.ba-tune__like:hover {
+  fill: #574d72;
+}
+
+.ba-hidden {
+  display: none;
+}
+
+/* Layout */
+.ba-container {
+  max-width: 1200px;
+  padding: 50px 20px;
+}
+
+.ba-button {
+  display: inline-block;
+}
